@@ -71,6 +71,10 @@ main>section{
 
 main>section>p{
     margin: 0;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 section>div{
