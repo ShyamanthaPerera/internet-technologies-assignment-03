@@ -1,0 +1,70 @@
+section{
+    height: 100vh;
+    width: 100vw;
+
+    position: relative;
+}
+
+section>div{
+    top: 0;
+    height: 5vh;
+    width: 100vw;
+    position: sticky;
+}
+
+section>div>h1{
+    color: white;
+    padding: 5px 0 0 10px;
+    margin: auto;
+}
+
+section>h1{
+    color: black;
+    top: 50%;
+    left: 50%;
+    font-size: 150px;
+    transform: translate(-50%, -50%);
+
+    margin: 0;
+    position: absolute;
+}
+
+/*First section*/
+
+section:first-child{
+    background-color: white;
+}
+
+section:first-child>div{
+    background-color: red;
+}
+
+/*Second section*/
+
+section:nth-child(2){
+    background-color: deepskyblue;
+}
+
+section:nth-child(2)>div{
+    background-color: darkblue;
+}
+
+/*Third section*/
+
+section:nth-child(3){
+    background-color: rosybrown;
+}
+
+section:nth-child(3)>div{
+    background-color: brown;
+}
+
+/*Fourth section*/
+
+section:nth-child(4){
+    background-color: red;
+}
+
+section:nth-child(4)>div{
+    background-color: darkred;
+}
