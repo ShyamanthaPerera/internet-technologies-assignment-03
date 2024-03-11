@@ -1,0 +1,104 @@
+header {
+    background-color: lightblue;
+    position: relative;
+    width: 100vw;
+    height: 60px;
+}
+
+header>img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    left: 10px;
+    margin: auto;
+}
+
+header>nav {
+    height: fit-content;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+header>nav>ul {
+    padding: 0;
+    margin: 0;
+}
+
+header>nav>ul>li {
+    display: inline-block;
+}
+
+footer{
+    background-color: darkgrey;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+
+}
+
+main{
+    position: relative;
+}
+
+main>aside{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    position: absolute;
+    box-sizing: border-box;
+
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+main>aside>ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+main>section{
+    background-color: lightyellow;
+    width: calc(100vw - 150px);
+    margin-left: 150px;
+}
+
+main>section>p{
+    margin: 0;
+}
+
+section>div{
+    height: 250px;
+    position: relative;
+}
+
+section>div>div{
+    width: calc(100%/3);
+    height: 250px;
+
+    position: absolute;
+
+    /*background: url("assets/images/BkF3.gif");*/
+    background: url("https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /*border: 1px solid red;*/
+    box-sizing: border-box;
+}
+
+section>div>div:nth-child(2){
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+section>div>div:last-child{
+    right: 0;
+}
